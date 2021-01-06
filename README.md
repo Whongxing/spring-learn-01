@@ -9,3 +9,34 @@ Sping学习，最简单的Spring空项目(多模块)创建，引入maven依赖
 ```
 <packaging>pom</packaging>
 ```
+
+# 添加spring依赖
+#####  添加依赖管理
+```
+    <!--依赖管理-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+```
+##### 新增版本属性
+```
+    <properties>
+        <spring.version>5.2.2.RELEASE</spring.version>
+    </properties>
+```
+##### 新增具体依赖
+```
+    <!--具体依赖-->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+    </dependencies>
+```
