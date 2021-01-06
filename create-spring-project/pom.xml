@@ -4,12 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.springlearn</groupId>
+    <groupId>org.example</groupId>
     <artifactId>create-spring-project</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <!--将其变成多模块模式，声明为父模块，删掉src目录-->
-    <packaging>pom</packaging>
-
 
 
 </project>
