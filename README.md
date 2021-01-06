@@ -40,3 +40,5 @@ Sping学习，最简单的Spring空项目(多模块)创建，引入maven依赖
         </dependency>
     </dependencies>
 ```
+
+Maven项目中，这里只需引入spring-context模块就可以了，因为spring-context模块会依赖spring-aop、spring-bean、spring-core、spring-expression模块，都会自动引入，因此不需要再主动声明。
